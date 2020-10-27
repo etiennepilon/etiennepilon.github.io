@@ -3,9 +3,15 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
  */
+html {
+  min-height: 100%;
+  margin: 0;
+}
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 100%;
 }
 
 h1,
@@ -25,6 +31,12 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  margin: 0;
+  height: 100%;
+}
+
+.hdr-nav {
+  opacity: 1;
 }
 
 header.masthead .overlay {
@@ -34,7 +46,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.7;
 }
 
 header.masthead h1 {
@@ -124,3 +136,12 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+img.logo-header {
+  width: 80px;
+  height: 80px;
+  filter: brightness(0) invert(1);
+}
+/* .logo {
+  size: 20%;
+} */
